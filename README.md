@@ -6,4 +6,4 @@ Only the dark gray background style is supported on terminal vim at this time.
 
 ## Installation
 
-Just copy the file on your .vim/colors folder.
+Just copy the monokai256.vim file into your .vim/colors folder.
