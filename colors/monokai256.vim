@@ -3,10 +3,9 @@
 " Maintainer: Shanon Moeller <me@shannonmoeller.com>
 " Last Change: 2012-04-04
 "
-" Note: Based on the molokai theme for gVim
-" by Tomas Restrepo and the monokai TextMate
-" by Wimer Hazenberg and its darker variant
-" by Hamish Stuart Macpherson
+" Note: Based on the molokai theme for gVim by Tomas Restrepo
+"       and the monokai theme for TextMate by Wimer Hazenberg
+"       and its darker variant by Hamish Stuart Macpherson
 "
 " vim:set ts=4 sw=4 noet:
 
@@ -59,9 +58,9 @@ hi NonText          ctermfg=59
 hi Normal           ctermfg=252  ctermbg=none
 hi Number           ctermfg=135
 hi Operator         ctermfg=161
-hi Pmenu            ctermfg=81   ctermbg=16
+hi Pmenu            ctermfg=59   ctermbg=232
 hi PmenuSbar                     ctermbg=232
-hi PmenuSel                      ctermbg=244
+hi PmenuSel                      ctermbg=161
 hi PmenuThumb       ctermfg=81
 hi PreCondit        ctermfg=118               cterm=bold
 hi PreProc          ctermfg=118
@@ -75,13 +74,14 @@ hi SpecialComment   ctermfg=245               cterm=bold
 hi SpecialKey       ctermfg=59
 hi SpecialKey       ctermfg=81
 hi Statement        ctermfg=161               cterm=bold
-hi StatusLine       ctermfg=7    ctermbg=238  cterm=none
-hi StatusLineNC     ctermfg=243  ctermbg=238  cterm=none
+hi StatusLine       ctermfg=252  ctermbg=238  cterm=none
+hi StatusLineNC     ctermfg=59   ctermbg=238  cterm=none
 hi StorageClass     ctermfg=208
 hi String           ctermfg=144
 hi Structure        ctermfg=81
 hi Tag              ctermfg=161
 hi Title            ctermfg=166
+hi TrailingSpace                 ctermbg=199
 hi Todo             ctermfg=231  ctermbg=232  cterm=bold
 hi Type             ctermfg=81                cterm=none
 hi Typedef          ctermfg=81
@@ -90,4 +90,4 @@ hi VertSplit        ctermfg=238  ctermbg=238  cterm=bold
 hi Visual                        ctermbg=235
 hi VisualNOS                     ctermbg=238
 hi WarningMsg       ctermfg=231  ctermbg=238  cterm=bold
-hi WildMenu         ctermfg=81   ctermbg=16
+hi WildMenu         ctermfg=252    ctermbg=161
