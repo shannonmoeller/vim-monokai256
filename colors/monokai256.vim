@@ -34,7 +34,7 @@ hi DiffAdd                       ctermbg=24
 hi DiffChange       ctermfg=181  ctermbg=239
 hi DiffDelete       ctermfg=162  ctermbg=53
 hi DiffText                      ctermbg=102  cterm=bold
-hi Directory        ctermfg=118               cterm=bold
+hi Directory        ctermfg=81
 hi Error            ctermfg=219  ctermbg=89
 hi ErrorMsg         ctermfg=199  ctermbg=16   cterm=bold
 hi Exception        ctermfg=118               cterm=bold
