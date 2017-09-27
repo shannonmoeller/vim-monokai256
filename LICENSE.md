@@ -1,4 +1,5 @@
 monokai theme Copyright (c) Wimer Hazenberg
+
 molokai.vim theme Copyright (c) 2011 Tomas Restrepo
 
 vim-monokai256 licensed as follows:
