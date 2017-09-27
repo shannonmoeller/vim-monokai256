@@ -13,7 +13,7 @@ set background=dark
 highlight clear
 
 if exists("syntax_on")
-	syntax reset
+    syntax reset
 endif
 
 let g:colors_name="monokai256"
@@ -79,8 +79,10 @@ hi StatusLineNC     ctermfg=59   ctermbg=238  cterm=none
 hi StorageClass     ctermfg=208
 hi String           ctermfg=144
 hi Structure        ctermfg=81
-hi Tag              ctermfg=161
-hi Title            ctermfg=166
+hi Tag              ctermfg=118
+hi xmlTag           ctermfg=118
+hi xmlEndTag        ctermfg=118
+hi Title            ctermfg=118
 hi TrailingSpace                 ctermbg=199
 hi Todo             ctermfg=231  ctermbg=232  cterm=bold
 hi Type             ctermfg=81                cterm=none
