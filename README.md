@@ -18,8 +18,8 @@ Compatible with common vim plugin managers like [Plug](https://github.com/junegu
 
 ----
 
-`monokai` theme © Wimer Hazenberg
-`molokai.vim` theme © Tomas Restrepo 
-`vim-monokai256` theme © Shannon Moeller <me@shannonmoeller.com> (shannonmoeller.com)
+- `monokai` theme © Wimer Hazenberg
+- `molokai.vim` theme © Tomas Restrepo 
+- `vim-monokai256` theme © Shannon Moeller <me@shannonmoeller.com> (shannonmoeller.com)
 
 Licensed under MIT
