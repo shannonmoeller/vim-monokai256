@@ -35,7 +35,7 @@ hi DiffChange       ctermfg=181  ctermbg=239
 hi DiffDelete       ctermfg=162  ctermbg=53
 hi DiffText                      ctermbg=102  cterm=bold
 hi Directory        ctermfg=81
-hi Error            ctermfg=219  ctermbg=89
+hi Error                         ctermbg=52
 hi ErrorMsg         ctermfg=199  ctermbg=16   cterm=bold
 hi Exception        ctermfg=118               cterm=bold
 hi Float            ctermfg=135
@@ -73,6 +73,7 @@ hi SpecialChar      ctermfg=161               cterm=bold
 hi SpecialComment   ctermfg=245               cterm=bold
 hi SpecialKey       ctermfg=59
 hi SpecialKey       ctermfg=81
+hi SpellBad                      ctermbg=52
 hi Statement        ctermfg=161               cterm=bold
 hi StatusLine       ctermfg=252  ctermbg=238  cterm=none
 hi StatusLineNC     ctermfg=59   ctermbg=238  cterm=none
