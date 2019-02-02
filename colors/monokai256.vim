@@ -81,8 +81,6 @@ hi StorageClass     ctermfg=208
 hi String           ctermfg=144
 hi Structure        ctermfg=81
 hi Tag              ctermfg=118
-hi xmlTag           ctermfg=118
-hi xmlEndTag        ctermfg=118
 hi Title            ctermfg=118
 hi TrailingSpace                 ctermbg=199
 hi Todo             ctermfg=231  ctermbg=232  cterm=bold
@@ -94,3 +92,47 @@ hi Visual                        ctermbg=235
 hi VisualNOS                     ctermbg=238
 hi WarningMsg       ctermfg=231  ctermbg=238  cterm=bold
 hi WildMenu         ctermfg=252    ctermbg=161
+
+hi def link jsFlowDefinition         Comment
+hi def link jsFlowClassDef           Type
+hi def link jsFlowArgumentDef        Type
+hi def link jsFlowType               Constant
+hi def link jsFlowTypeCustom         Type
+hi def link jsFlowTypeof             Type
+hi def link jsFlowArray              Label
+hi def link jsFlowObject             Normal
+hi def link jsFlowExactObject        Normal
+hi def link jsFlowParens             Operator
+hi def link jsFlowGroup              Type
+hi def link jsFlowReturn             Type
+hi def link jsFlowParenAnnotation    Comment
+hi def link jsFlowReturnObject       Type
+hi def link jsFlowReturnArray        Type
+hi def link jsFlowReturnParens       Operator
+hi def link jsFlowReturnGroup        Type
+hi def link jsFlowFunctionGroup      Type
+hi def link jsFlowClassGroup         Type
+hi def link jsFlowClassFunctionGroup Type
+hi def link jsFlowArrowArguments     Type
+hi def link jsFlowArrow              Operator
+hi def link jsFlowReturnArrow        Operator
+hi def link jsFlowTypeStatement      StorageClass
+hi def link jsFlowTypeKeyword        StorageClass
+hi def link jsFlowTypeOperator       StorageClass
+hi def link jsFlowMaybe              Operator
+hi def link jsFlowReturnMaybe        Operator
+hi def link jsFlowClassProperty      Normal
+hi def link jsFlowDeclare            Include
+hi def link jsFlowModule             Include
+hi def link jsFlowInterface          Include
+hi def link jsFlowNoise              Normal
+hi def link jsFlowObjectKey          Normal
+hi def link jsFlowOrOperator         Operator
+hi def link jsFlowReturnOrOp         Operator
+hi def link jsFlowWildcard           Operator
+hi def link jsFlowWildcardReturn     Operator
+hi def link jsFlowImportType         StorageClass
+hi def link jsFlowTypeValue          Type
+
+hi def link xmlTag    Tag
+hi def link xmlEndTag Tag
